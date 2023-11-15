@@ -1,0 +1,89 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-color: black;
+}
+
+#container
+{
+    width: 1020px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+header
+{
+    height: 100px;
+    width: 970px;
+    padding: 25px;
+    background-color: rgb(60, 165, 108);
+    margin-bottom: 10px;
+}
+
+nav
+{
+    width: 1000px;
+    background-color: rgb(138, 216, 174);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+nav li
+{
+    display:inline;
+    list-style-type: none;
+    padding-right: 40px;
+}
+
+aside
+{
+    width: 240px;
+    height: 550px;
+    margin: 0 10px 10px 0;
+    padding: 10px;
+    background-color: rgb(92, 190, 138);
+    float: left;
+}
+
+section
+{
+    width: 730px;
+    height: 550px;
+    margin: 0 0 10px 0;
+    padding: 10px;
+    background-color: rgb(25, 157, 86);
+    float: right;
+}
+
+footer
+{
+    padding: 20px;
+    background-color: rgb(0, 98, 45);
+    clear: both;
+}
+
+table
+{
+    border: solid 2px rgb(138, 216, 174);
+    border-collapse: collapse;
+    background-color: rgb(25, 157, 86);
+}
+
+tr, td, th
+{
+    border: 2px rgb(60, 165, 108);
+    padding: 5px;
+    width: 130;
+    text-align: center;
+}
+
+caption
+{
+    font-weight: bold;
+    margin: 5px;
+}
